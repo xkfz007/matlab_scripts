@@ -1,4 +1,4 @@
-function [y,y2]=dectobin(innum,N)
+function [y,y2]=dec2bin(innum,N)
 %十进制小数转换为二进制数
 %输入参数为innum和N
 %innum为输入的十进制小数

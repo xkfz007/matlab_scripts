@@ -17,6 +17,3 @@ props.setProperty('mail.smtp.socketFactory.port','465');
 subject='test';
 message='let''s if this is ok';
 sendmail(mail,subject,message);
-%%
-emailSend('hu1fang2zhen3@163.com','34055639@163','smtp.163.com',...
-    'hu1fang2zhen3@gmail.com',subject,message);

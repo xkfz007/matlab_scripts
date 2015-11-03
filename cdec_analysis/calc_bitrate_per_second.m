@@ -1,4 +1,5 @@
 function [X,Y,len]=calc_bitrate_per_second(bits_data,fps)
+%calc bitrate for every second using a sliding window
 len=length(bits_data);
 X=1:len;
 Y=zeros(1,len);

@@ -1,4 +1,5 @@
 function [X,Y,len]=calc_bitrate(bits_data,fps)
+%calc bitrate after each frame
 total_bits=0;
 len=length(bits_data);
 X=1:len;
